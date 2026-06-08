@@ -1,41 +1,44 @@
 export const personal = {
   name: "Siddharth Sharma",
   title: "Senior Software Engineer",
-  tagline: "Senior Backend Engineer who ships. 5+ years building distributed systems, cloud-native platforms, and AI-powered APIs for enterprise clients. I turn messy data, tight SLAs, and complex domains into clean, scalable services — Python/FastAPI or Java/Spring Boot, whichever the problem calls for. Currently: geospatial pipelines on AWS at Interco. Always: making the hard parts boring.",
-  location: "Los Angeles, CA (Open to relocate)",
+  tagline: "5+ years building distributed systems, cloud-native platforms, and AI-powered APIs. Python/Django · PostgreSQL · AWS · LLMs.",
+  location: "San Jose, CA",
   email: "siddharth2503s@gmail.com",
   phone: "(945) 233-2085",
   linkedin: "https://linkedin.com/in/siddharth2503s",
-  github: "https://github.com/siddharth2503s",
+  github: "https://github.com/siddharth-01",
   summary:
-    "Senior Backend Engineer with 5+ years of experience designing distributed microservices, ERP data platforms, and cloud-native systems. Specialized in Python/FastAPI, PostgreSQL schema design, event-driven architectures, and containerized deployments on AWS.",
+    "Senior Backend Engineer with 5+ years of experience designing distributed microservices, ERP data platforms, and cloud-native systems. Specialized in Python/Django, PostgreSQL schema design, event-driven architectures, and containerized deployments on AWS. Proven track record of improving performance, reliability, and operational efficiency across high-throughput transactional systems.",
 };
 
 export const experience = [
   {
     title: "Senior Software Engineer",
     company: "Interco",
-    location: "St. Louis, MO",
+    location: "Remote, US",
     period: "Jan 2025 – Present",
     bullets: [
-      "Architected a scalable Cloud Native Development platform on AWS using micro-service architecture and containerization, reducing operational costs by 20%.",
-      "Designed an automated detection algorithm system utilizing SAR/RADAR imaging technologies, improving detection accuracy by 15% and reducing manual review efforts by 30%.",
-      "Spearheaded integration of complex geospatial COTS software with custom services using OpenGeospatial Consortium standards, establishing high-performance data pipelines for NITF and GeoPDF formats.",
-      "Drove evolution of PostGRES/PostGIS databases for high-volume spatial queries, optimizing query performance by 25% through advanced indexing and orchestration of data ingestion processes.",
-      "Mentored junior engineers and facilitated cross-functional collaboration with data scientists to translate analytical requirements into production-ready geospatial solutions.",
+      "Architected end-to-end SDLC solutions for SOA microservices using Python/Django and PostgreSQL, supporting thousands of asset lifecycle transactions weekly across receiving, processing, and transfer workflows.",
+      "Implemented event-driven service communication using async request handling and idempotent processing patterns, improving workflow throughput and reducing processing bottlenecks across asset tracking operations.",
+      "Developed a multi-agent backend architecture using LangGraph, including caching layers, retry logic, schema stores, orchestration, and pytest-based automated tests.",
+      "Engineered a schema-aware Text-to-SQL agent using LLMs, SQLGlot, automated validation, and retries, enabling accurate SQL generation and execution on large multi-table Postgres datasets.",
+      "Implemented prompt engineering strategies including structured prompts, domain context injection, and output validation to improve reliability of AI-generated procurement recommendations.",
+      "Built REST APIs for lane cost modeling, carrier performance scoring, and recommendation workflows supporting procurement decision-making.",
+      "Implemented application performance monitoring using metrics, traces, and structured logs to track API latency, error rates, and service health across microservices.",
     ],
   },
   {
     title: "Software Engineer",
     company: "Interco",
-    location: "St. Louis, MO",
+    location: "Remote, US",
     period: "Oct 2023 – Jan 2025",
     bullets: [
-      "Developed a Python microservice for processing and validating KML/KMZ geospatial datasets, improving data ingestion reliability by 25%.",
-      "Optimized Java Web Services architecture endpoints for real-time geospatial queries, achieving a 10% reduction in average response time.",
-      "Implemented and maintained ArcGIS Server applications with custom extensions for specialized spatial analysis functions.",
-      "Designed and managed File Geodatabases for efficient storage and retrieval of proprietary geospatial data.",
-      "Contributed to the full lifecycle development within an Agile team, collaborating with product owners to refine requirements for new API features.",
+      "Developed RESTful APIs for warehouse asset lifecycle management and tracking, supporting 5,000+ asset transactions weekly.",
+      "Integrated backend services with internal ERP systems and Android-based scanning applications, improving real-time inventory accuracy by 30% and reducing human errors by 50%.",
+      "Designed ACID-compliant relational data models ensuring consistency under concurrent operational workloads.",
+      "Built ETL pipelines and backend automation frameworks that reduced manual warehouse operations by 50%.",
+      "Containerized services using Docker and implemented CI/CD pipelines with GitHub Actions, reducing deployment time by 50% and increasing release consistency.",
+      "Configured monitoring dashboards and alerting rules to detect anomalies in API performance and system health, reducing incident response time.",
     ],
   },
   {
@@ -44,11 +47,10 @@ export const experience = [
     location: "Hyderabad, India",
     period: "Jan 2019 – Aug 2021",
     bullets: [
-      "Developed and deployed key components of a financial automation platform using Java and micro-service architecture on AWS, enhancing processing efficiency by 18%.",
-      "Designed and optimized relational database schemas for high-volume transaction data, improving data retrieval speeds by 15%.",
-      "Implemented robust API gateways for secure third-party integrations using Python and JavaScript with containerization.",
-      "Contributed to migration of legacy services to a Cloud Native environment on AWS, reducing infrastructure overhead by 10%.",
-      "Partnered with cross-functional product and operations teams to gather requirements and deliver critical backend services.",
+      "Developed enterprise microservices using Python and Django, improving payment processing efficiency by 25%.",
+      "Analyzed slow queries, introduced composite indexes and query refactoring, improving average query execution time by 40%.",
+      "Leveraged version-controlled database schema migrations to apply incremental schema updates, index changes, and table modifications across development and production environments.",
+      "Implemented secure REST APIs with JWT authentication and Hibernate ORM optimizations to support distributed financial services.",
     ],
   },
 ];
@@ -69,34 +71,36 @@ export const education = [
 ];
 
 export const skills = {
-  "Web Technologies": [
-    "Python", "FastAPI", "Django", "JavaScript", "SQL", "C++",
-    "Spring Boot", "RESTful APIs", "Microservices", "Event-Driven Architecture",
-    "LangGraph", "LLM Integration", "SQLGlot",
+  "Languages & Backend": [
+    "Python", "Django", "Spring Boot", "JavaScript", "SQL", "C++",
+    "RESTful APIs", "Microservices", "Event-Driven Architecture",
+  ],
+  "AI & Data": [
+    "LangGraph", "LLM Integration", "SQLGlot", "Kafka", "ETL Pipelines",
+    "OpenAI", "Text-to-SQL",
   ],
   Databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
-  Cloud: ["AWS EC2", "S3", "Lambda", "RDS", "CloudWatch", "API Gateway"],
-  "DevOps & Tools": [
-    "Docker", "Kubernetes", "GitHub Actions", "Jenkins", "Git",
-    "Maven", "Gradle", "Postman", "JIRA", "Linux",
+  "Cloud & DevOps": [
+    "AWS (EC2, S3, Lambda)", "Docker", "Kubernetes",
+    "GitHub Actions", "Jenkins", "CI/CD", "Linux",
   ],
-  "Testing & Automation": ["Pytest", "Postman", "Unit Testing"],
-  "Concepts & Practices": [
-    "Kafka", "ETL Pipelines", "CI/CD", "OOP", "Design Patterns",
-    "Distributed Systems", "Structured Logging", "Observability",
-    "Incident Response", "RCA",
+  "Observability & Tools": [
+    "Structured Logging", "Metrics", "Monitoring", "Alerting",
+    "Incident Response", "RCA", "Postman", "JIRA", "Git",
   ],
+  "Testing": ["Pytest", "Unit Testing", "Integration Testing"],
 };
 
 export const projects = [
   {
     name: "Lane Procurement AI Agent",
-    tech: ["Python", "FastAPI", "Pandas", "OpenAI", "Claude", "PostgreSQL"],
+    tech: ["Python", "Django", "Pandas", "OpenAI", "Claude", "PostgreSQL"],
     description:
       "AI-powered logistics procurement assistant that analyzes historical freight data to generate 12-week lane cost forecasts and carrier recommendations.",
     bullets: [
-      "Built REST APIs using FastAPI to expose lane analytics, cost modeling, and carrier scoring services for supply chain decision-making.",
+      "Built REST APIs using Django to expose lane analytics, cost modeling, and carrier scoring services for supply chain decision-making.",
       "Integrated LLM-based natural language querying using OpenAI, enabling operations teams to retrieve freight insights through conversational queries.",
+      "Implemented prompt engineering strategies with structured prompts, domain context injection, and output validation.",
     ],
     github: null,
   },
