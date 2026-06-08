@@ -1,7 +1,7 @@
 export const personal = {
   name: "Siddharth Sharma",
-  title: "Senior Backend Engineer",
-  tagline: "Building distributed systems, APIs, and cloud-native platforms",
+  title: "Senior Software Engineer",
+  tagline: "Senior Backend Engineer who ships. 5+ years building distributed systems, cloud-native platforms, and AI-powered APIs for enterprise clients. I turn messy data, tight SLAs, and complex domains into clean, scalable services — Python/FastAPI or Java/Spring Boot, whichever the problem calls for. Currently: geospatial pipelines on AWS at Interco. Always: making the hard parts boring.",
   location: "Los Angeles, CA (Open to relocate)",
   email: "siddharth2503s@gmail.com",
   phone: "(945) 233-2085",
