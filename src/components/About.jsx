@@ -32,7 +32,6 @@ const stats = [
   { value: 5, label: 'Years Experience', suffix: '+' },
   { value: 3, label: 'Companies', suffix: '' },
   { value: 10, label: 'Projects Delivered', suffix: '+' },
-  { value: 3, label: 'Cloud Certifications', suffix: '' },
 ];
 
 export default function About() {
