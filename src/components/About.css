@@ -3,10 +3,10 @@
 }
 
 .about-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 60px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
   margin-bottom: 60px;
 }
 
@@ -17,8 +17,8 @@
 }
 
 .about-avatar {
-  width: 240px;
-  height: 330px;
+  width: 720px;
+  height: 405px;
   border-radius: 16px;
   background: linear-gradient(135deg, var(--primary), var(--accent));
   display: flex;
@@ -38,7 +38,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  transform: rotate(90deg) scale(1.6);
+  transform: rotate(90deg) scale(2.2);
 }
 
 .about-glow {
