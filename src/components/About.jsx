@@ -46,7 +46,7 @@ export default function About() {
         <div className="about-grid">
           <div className="about-avatar-wrap">
             <div className="about-avatar">
-              <span>SS</span>
+              <img src="/portfolio/profile.jpg" alt="Siddharth Sharma" />
             </div>
             <div className="about-glow" />
           </div>
