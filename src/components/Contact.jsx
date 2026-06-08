@@ -11,8 +11,8 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailto = `mailto:${personal.email}?subject=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(`From: ${form.name} <${form.email}>\n\n${form.message}`)}`;
-    window.open(mailto, '_self');
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&to=${personal.email}&su=${encodeURIComponent(form.subject)}&body=${encodeURIComponent(`From: ${form.name} <${form.email}>\n\n${form.message}`)}`;
+    window.open(gmailUrl, '_blank');
     setSent(true);
   };
 
@@ -28,7 +28,7 @@ export default function Contact() {
               Open to new opportunities, collaborations, or just a chat about distributed systems and backend engineering.
             </p>
             <div className="contact-links">
-              <a href={`mailto:${personal.email}`} className="contact-link">
+              <a href={`https://mail.google.com/mail/?view=cm&to=${personal.email}`} target="_blank" rel="noreferrer" className="contact-link">
                 <FiMail /> {personal.email}
               </a>
               <a href={personal.linkedin} target="_blank" rel="noreferrer" className="contact-link">
