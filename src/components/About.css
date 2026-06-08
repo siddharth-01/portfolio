@@ -36,9 +36,10 @@
 .about-avatar img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center center;
-  transform: rotate(90deg) scale(2.2);
+  background: #0f0f1a;
+  transform: none;
 }
 
 .about-glow {
